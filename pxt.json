@@ -6,9 +6,9 @@
     "dependencies": {
         "core": "*",
         "neopixel": "github:microsoft/pxt-neopixel#v0.6.9",
-        "cbit_IR": "github:zhuning239/cBit_IR",
         "sonar": "github:zhuning239/sonar",
-        "TM1650": "github:zhuning239/TM1650"
+        "TM1650": "github:zhuning239/TM1650",
+        "microphone": "*"
     },
     "files": [
         "README.md",
@@ -18,5 +18,13 @@
     "testFiles": [
         "test.ts"
     ],
-    "public": true
+    "public": true,
+    "targetVersions": {
+        "target": "6.0.8",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
 }
