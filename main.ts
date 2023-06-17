@@ -208,7 +208,7 @@ namespace makerobo {
 
 
     /**
-     * Init RGB pixels mounted on robotbit
+     * Init RGB pixels mounted on robotbit  (Pin16)
      */
     //% blockId="robotbit_rgb" block="RGB"
     //% weight=5

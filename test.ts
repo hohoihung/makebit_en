@@ -22,4 +22,14 @@ basic.forever(function() {
     makerobo.MotorRun(makerobo.Motors.Left, 255)
     makerobo.MotorRun(makerobo.Motors.Right, 255)
     makerobo.MotorRun(makerobo.Motors.Centre, 255)
+//
+    let _flag = makerobo.IR(DigitalPin.P1, makerobo.enObstacle.Obstacle)
+    let _flag1 = makerobo.flame(DigitalPin.P1, makerobo.enflame.NoFlame)
+
+    if(_flag1){
+        basic.showIcon(IconNames.Yes)
+    }
+    else{
+        basic.showIcon(IconNames.No)
+    }
 })
